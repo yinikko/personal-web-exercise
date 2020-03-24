@@ -1,0 +1,98 @@
+*{margin:0;padding:0;}
+/* 天空草地的背景设置 */
+html,body{
+    height: 100%;
+    overflow: hidden;
+}
+.sky{
+    width:100%;
+    height:60%;
+    background-image: linear-gradient( rgb(196, 228, 253),transparent);
+}
+.grass{
+    width:100%;
+    height:40%;
+    /* border:1px red solid; */
+    position: relative;
+    background-image: linear-gradient(transparent,rgb(148, 190, 89));
+}
+/* 兔子图片设置 */
+.ima{
+    width:300px;
+    position:fixed;
+    bottom: 100px;
+    right:200px;
+}
+/* 设置云朵样式 */
+.cloud{
+    height:75px;
+    width:75px;
+    background:white;
+    opacity: 0.6;
+    border-radius:50px;
+    position: absolute;
+    left:110%;
+}
+.cloud:before{
+    content: "";
+    height: 45px;
+    width: 137px;
+    background: white;
+    position: absolute;
+    border-radius: 65px/20px;
+    top: 26px;
+    left: -46px;
+}
+.cloud:after{
+    content: "";
+    height: 60px;
+    width: 48px;
+    border-radius: 24px/30px;
+    transform: rotate(-21deg);
+    background: white;
+    position: absolute;
+    left: -24px;
+    top: 16px;
+}
+/* 对五朵云分别设置 */
+.cloud1{
+    transform: scale(0.8);
+    opacity: 0.7;
+    top:10px;
+    animation:ani 18s linear infinite;
+}
+.cloud2{
+    transform: scale(1);
+    position: absolute;
+    opacity: 0.9;
+    left:300px;
+    top:60px;
+    animation: ani 17s linear infinite 2s;
+}
+.cloud3{
+    transform: scale(0.6);
+    position: absolute;
+    left:850px;
+    top:92px;
+    animation: ani 13s linear infinite 3s;
+}
+.cloud4{
+    transform: scale(0.8);
+    position: absolute;
+    left:350px;
+    top:0px;
+    animation: ani 25s linear infinite;
+}
+.cloud5{
+    transform: scale(0.8);
+    position: absolute;
+    left:400px;
+    top:102px;
+    animation: ani 22s linear infinite;
+}
+/* 设置云朵动画 */
+@keyframes ani{
+    from{left:110%;}
+    to{left:-400px;}
+}
+

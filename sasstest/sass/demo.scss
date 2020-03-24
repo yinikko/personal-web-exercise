@@ -1,0 +1,12 @@
+
+
+@function foo($fo){
+    $item:2px;
+    @debug $fo;
+    @return ($fo/2) + item;
+}
+
+.div{
+    width:foo(2px);
+}
+

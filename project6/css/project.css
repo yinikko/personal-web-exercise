@@ -1,0 +1,455 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.first-screen{
+    background: url(../img/sc1.jpg) no-repeat ;
+    background-size: cover;
+    width:100%;
+    height:640px;
+}
+
+.head-top{
+    height:60px;
+    width:100%;
+    position: fixed;
+    background:rgba(255, 255, 255, 0);
+    z-index:3;
+}
+
+
+.left-title{
+    float: left;
+    height:40px;
+    width:150px;
+    padding-top:9px;
+    padding-left: 20px;
+    color:white;
+}
+
+.left-title-b{
+    position: absolute;
+    left:75px;
+    top:17px;
+    font-size: 18px;
+}
+
+/* 给左侧慕课网图标设置悬停效果 */
+.left-title:hover{
+    cursor:pointer;
+}
+
+.underline{
+    position: absolute;
+    left:0;
+    bottom:0;
+    height:2px;
+    background: red;
+    width: 64px;
+    transition: all 0.5s;
+}
+
+.right-nav{
+    float: right;
+    position: relative;
+    height:40px;
+    padding-top:10px;
+    padding-right:30px;
+}
+
+.right-nav-ul{
+    height:40px;
+    float: right;
+    color: white;
+    list-style: none;
+}
+
+.right-nav-ul li{
+    float: right;
+    line-height: 40px;
+    padding-right:30px;
+}
+
+.right-nav-ul li:last-child{
+    font-weight: bold;
+}
+
+.top-button{
+    transition: all 0.1s;
+    text-decoration:none;
+    cursor: pointer;
+    background: red;
+    border-radius: 4px;
+    color:white;
+    line-height:40px;
+    text-align: center;
+    height:40px;
+    width:100px;
+    float: right;
+}
+
+/* 给导航栏设置鼠标悬停效果 */
+.right-nav ul li:hover{
+    cursor: pointer;
+}
+
+.top-button:hover{
+    background: rgb(175, 0, 0);
+}
+
+
+/* 第一屏 */
+.first-title{
+    color:white;
+    text-align: center;
+    padding-top:250px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.first-content{
+    color:white;
+    text-align: center;
+    margin-top:40px;
+    font-size:15px;
+}
+
+/* 第二屏 */
+.second-bg{
+    background: #f3f5f7;
+    height:640px;
+    width:100%;
+    text-align: center;
+}
+
+.second-screen{
+    margin:auto;
+    width:1200px;
+    height:640px;
+    overflow: hidden;
+}
+
+.second-title{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top:72px;
+}
+
+.second-hr{
+    border:0;
+    background-color:red;
+    height:2px;
+    width:42px;
+    margin:42px auto;
+}
+
+.second-content{
+    margin-top:-22px; 
+    font-size: 12px;
+}
+
+/* 设置下方的背景图片 */
+.second-pic2{
+    background:url(../img/sc2.png) no-repeat ;
+    height:361px;
+    width:750px;
+    margin: auto;
+    margin-top:85px;
+    position: relative;
+}
+
+.second-pic2_1{
+    position: absolute;
+    top:0;
+    left:50%;
+    margin-left:-137.5px;
+    z-index: 2;
+}
+
+.second-pic2_2{
+    position: absolute;
+    top:55px;
+    left:355px;
+    z-index: 1;
+}
+
+/* 第三屏 */
+.third-bg{
+    background: rgb(43,51,59);
+    width:100%;
+    height:640px;
+}
+
+.third-screen{
+    margin:auto;
+    height:640px;
+    width: 1200px;
+}
+
+.third-screen img{
+    float: left;
+    height:640px;
+}
+
+
+/* 右边文字区域 */
+.third-title{
+    padding-top:190px;
+    margin-bottom:21px;
+    margin-left:700px;
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+}
+
+
+.third-hr{
+    background:red;
+    width:35px;
+    height:2px;
+    margin-bottom:13px;
+    margin-left:700px;
+    border:0;
+}
+
+.third-content{
+    color:white;
+    margin-left:700px;
+}
+
+/* 右下方tips */
+.third-tips{
+    float: left;
+    margin-left: 110px;
+    margin-top: 140px;
+}
+
+.tips{
+    border-radius: 50%;
+    border:white solid 4px;
+    font-size: 14px;
+    float: left;
+    line-height: 60px;
+    width:60px;
+    height: 60px;
+    margin-left:30px;
+    text-align: center;
+}
+
+.tip1{
+    border-color: #1f5975;
+    color:  #10a4f2;
+}
+
+.tip2{
+    border-color: #424d76;
+    color: #7888fd;
+}
+
+.tip3{
+    border-color: #6b4146;
+    color: #f1585a;
+}
+
+.tip4{
+    border-color: #29535f;
+    color: #27bde5;
+}
+
+.tip5{
+    border-color: #3e4e40;
+    color: #66b056;
+}
+
+
+/* 第四屏 */
+.forth-bg{
+    background:#f3f5f7;
+    width:100%;
+    height:640px;
+    text-align: center;
+}
+
+.forth-screen{
+    width:1200px;
+    height: 640px;
+    margin: 0 auto;
+}
+
+.forth-title{
+    font-size: 33px;
+    font-weight: bold;
+    padding-top:85px;
+    margin-bottom: 29px;
+}
+
+.forth-screen hr{
+    border:0;
+    background:red;
+    width:30px;
+    height:2px;
+    margin:0 auto;
+}
+
+.forth-content{
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.forth-pic{
+    margin-top:75px;
+    text-align: center;
+    float: left;
+}
+
+.forth-pic dl{
+    margin-left:100px;
+    float: left;
+}
+
+.forth-pic .forth-img1{
+    margin-left: 180px;
+}
+
+.forth-pic dl dd{
+    margin-top: 20px;
+}
+
+/* 第五屏 */
+.fifth-bg{
+    width:100%;
+    height:640px;
+    background: url(../img/sc5.jpg) no-repeat;
+    background-size: cover;
+} 
+
+.fifth-screen{
+    height:640px;
+    width:1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.fifth-screen img{
+    margin-top: 90px;
+}
+
+.fifth-title{
+    color:white;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top:35px;
+    margin-bottom: 22px;
+}
+
+.fifth-screen hr{
+    margin:0 auto;
+    height:2px;
+    width:35px;
+    border:0;
+    background:white;
+}
+
+.fifth-content{
+    margin-top: 18px;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* 底部继续学习按钮 */
+.bottom-button{
+    height:300px;
+    width:100%;
+    background: white;
+    text-align: center;
+}
+
+.bottom-button a{
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    border: black solid 1px;
+    border-radius: 3px;
+    background:white;
+    text-align: center;
+    height:40px;
+    width:140px;
+    line-height: 40px;
+    margin-top:130px;
+    cursor:pointer;
+}
+
+.bottom-button a:hover{
+    color:red;
+    box-shadow:0 0 2px 0.2px  grey;
+    border-color: grey;
+}
+/* 版权声明部分 */
+.copyright-bg{
+    background:black;
+}
+
+.bottom-others{
+    width: 1200px;
+    height:120px;
+    color:#c8cdd2;
+    margin:0 auto;
+    text-align: center;
+}
+
+.bottom-ul{
+    list-style: none;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 211px;
+}
+
+.bottom-ul li{
+    float: left;
+    margin-left:30px;
+}
+
+.bottom-ul li:hover{
+    color:rgb(255,65,65);
+    cursor: pointer;
+}
+
+.bottom-others .copyright{
+    font-size: 14px;
+    padding-top:75px;
+}
+
+.outline{
+    position: fixed;
+    padding:5px 0;
+    background:transparent;
+    bottom:50px;
+    right:0px;
+    z-index:3;
+    opacity:0;
+    transition:all 1s;
+}
+
+.outline ul li{
+    cursor: pointer;
+    margin-top:5px;
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+    display: block;
+    width:40px;
+    height:30px;
+    text-align: center;
+}
+
+.outline ul li:hover{
+    color:red;
+}
+
+
+/* .right-nav-ul .right-li-ani{
+    color:red;
+} */

@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Microsoft YaHei;
+}
+
+/* 盒子定义 */
+.box{
+    height:510px;
+    width:1200px;
+    margin:20px auto;
+    border:#666 0.5px dotted;
+    border-radius:5px;
+}
+
+/* 标题定义 */
+.top{
+    height:50px;
+    width: 1200px;
+    /* 设置外边距 */
+    margin: 0 auto 2px;
+    /* background: blue; */
+}
+
+.top span{
+    height: 100%;
+    /* 去掉2px的边框宽度 */
+    width: 298px;
+    border-radius: 5px 5px 0 0;
+    border: 1px #FFF solid;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.top .color{
+    border:1px #FFCC00 solid;
+    background: #FFCC00;
+}
+
+/* 图片区样式定义 */
+.pic{
+    height:460px;
+    width:1200px;
+}
+
+/* 总体图片样式定义 */
+.picture{
+    height:100%;
+    width:100%;
+    display: none;
+}
+
+.pic-see{
+    display: block;
+}
+
+.picture1{
+    background: url(../img/1.jpg) no-repeat;
+}
+
+.picture2{
+    background: url(../img/3.jpg) no-repeat;
+}
+
+.picture3{
+    background: url(../img/4.jpg) no-repeat;
+}
+
+.picture4{
+    background: url(../img/5.jpg) no-repeat;
+}

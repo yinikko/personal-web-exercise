@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button onclick="btClick()">dianji</button>
+    <div id="result">jian</div>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+    <script>
+        function btClick(){
+            if (localStorage.one) {
+            localStorage.one = Number(localStorage.one)+1;
+            } else {
+            localStorage.one = 1;
+            }
+           $('div').text(`你在按钮上已经点击了${localStorage.one}次`)
+        }
+    </script>
+</body>
+
+</html>

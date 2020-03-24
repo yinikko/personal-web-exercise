@@ -1,0 +1,132 @@
+.main{
+    margin:0 auto;
+    width:1200px;
+    height:800px;
+}
+
+.main-title{
+    padding: 10px 0;
+}
+
+.main-title span{
+    color:grey;
+}
+
+.main-content{
+    border:1px solid rgb(251,116,3);
+    height:600px;
+    width:1200px;
+    border-radius:10px;
+    border-top:none;
+}
+
+.main-content>p{
+    height:1200px;
+    background:rgb(251,116,3);
+    height:30px;
+    color:white;
+    border:1px solid rgb(251,116,3);
+    border-radius: 10px;
+    line-height:30px;
+    padding-left:10px;
+}
+
+.post ul{
+    list-style: none;
+    margin-left:400px;
+    margin-top:50px;
+}
+
+.post ul li{
+    margin-bottom:15px;
+}
+
+
+.post ul li .span_check{
+    display: inline-block;
+    height:5px;
+    width:30px;
+    background:rgb(204, 204, 204);
+}
+
+.post ul li .span1{
+    margin-left:5px;
+    background:red;
+}
+
+
+.post ul li p{
+    display: inline-block;
+    /* width:250px; */
+    margin-left:20px;
+}
+
+.post ul li .remind{
+    color:rgb(251,116,3);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.post ul .name_input{
+    position: relative;
+}
+
+.post ul li .name_remind{
+    display: none;
+    color:grey;
+    background: white;
+    position: absolute;
+    left:318px;
+    top:26px;
+    width:428px;
+    height:304px;
+    border:1px rgb(36,135,201) solid;
+    padding-top:10px;
+    padding-left:15px;
+    line-height: 2em;
+}
+
+.post ul li input{
+    width:200px;
+}
+
+select{
+    width:204px;
+}
+
+.post ul li span{
+    color:rgb(251,116,3);
+    margin-right:2px;
+}
+
+.agree-button{
+    margin-left:485px;
+}
+
+.agree-content{
+    text-decoration: none;
+    color:rgb(36,135,201);
+    cursor:pointer;
+}
+
+.next{
+    cursor: pointer;
+    border:rgb(251,116,3) 1px solid;
+    border-radius:10px;
+    width:200px;
+    height:40px;
+    line-height:40px;
+    background: rgb(251,116,3);
+    text-align: center;
+    margin-left:500px;
+    margin-top:65px;
+    color:white;
+}
+
+.next a{
+    text-decoration: none;
+}
+
+.next:hover{
+    background:rgb(187, 84, 0);
+}
